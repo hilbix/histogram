@@ -1,0 +1,10 @@
+Count bytes in file
+# $Header$
+#
+# $Log$
+# Revision 1.1  2008-08-17 21:33:44  tino
+# First version
+#
+
+This outputs the histogram of the bytes in a file.
+It also can calculate the huffman tree.
