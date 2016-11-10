@@ -1,0 +1,4 @@
+*.d
+*.o
+histogram
+histogram_version.h
