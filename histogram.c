@@ -16,11 +16,6 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
  * USA
- *
- * $Log$
- * Revision 1.1  2008-08-17 21:33:44  tino
- * First version
- *
  */
 
 #include "tino/getopt.h"
@@ -80,12 +75,11 @@ huffman(void)
       unsigned long long	count[512];
       int			node[512], bits[512];
     }	*d;
-  int	n, i, nodes, flg;
+  int	i, nodes, flg;
   unsigned long long	total, totbits;
 
   d	= tino_alloc0O(sizeof *d);
 
-  n	= 0;
   for (i=256; --i>=0; )
     d->count[i]	= count[i];
 
